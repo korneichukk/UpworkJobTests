@@ -1,0 +1,552 @@
+{
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "meta": {
+        "totalCount": 12,
+        "requestId": "e2b6e8b1-d255-4831-8034-4cdf8abf8e56"
+    },
+    "links": {
+        "self": "https://www.njuskalo.hr/ccapi/v4/similar-classifieds?filter%5BclassifiedId%5D=38278571&include=image.variation_360x360c%2Cimage.variations&page%5Blimit%5D=12"
+    },
+    "data": [
+        {
+            "type": "similar-classifieds",
+            "id": "41019164",
+            "attributes": {
+                "label": "Gara\u017ea Vrbik 15 m2",
+                "url": "nekretnine/garaza-vrbik-15-m2-oglas-41019164",
+                "currencyISO": "EUR",
+                "price": 70,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "0"
+                    }
+                }
+            }
+        },
+        {
+            "type": "similar-classifieds",
+            "id": "41005922",
+            "attributes": {
+                "label": "Gara\u017eno parkirno mjesto",
+                "url": "nekretnine/garazno-parkirno-mjesto-oglas-41005922",
+                "currencyISO": "EUR",
+                "price": 75,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "0"
+                    }
+                }
+            }
+        },
+        {
+            "type": "similar-classifieds",
+            "id": "41082783",
+            "attributes": {
+                "label": "Gara\u017eno parkirno mjesto: Zagreb (\u0160pansko), 15 m2, Pavlenski put",
+                "url": "nekretnine/garazno-parkirno-mjesto-zagreb-spansko-15-m2-pavlenski-put-oglas-41082783",
+                "currencyISO": "EUR",
+                "price": 70,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "199085560"
+                    }
+                }
+            }
+        },
+        {
+            "type": "similar-classifieds",
+            "id": "41095604",
+            "attributes": {
+                "label": "Gara\u017eno parkirno mjesto: Tre\u0161njevka, Park Kate \u0160olji\u0107 (Selska ulica)",
+                "url": "nekretnine/garazno-parkirno-mjesto-tresnjevka-park-kate-soljic-selska-ulica-oglas-41095604",
+                "currencyISO": "EUR",
+                "price": 65,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "199190310"
+                    }
+                }
+            }
+        },
+        {
+            "type": "similar-classifieds",
+            "id": "40344323",
+            "attributes": {
+                "label": "Gara\u017eno parkirno mjesto Zagreb (Savica), 12,70 m2",
+                "url": "nekretnine/garazno-parkirno-mjesto-zagreb-savica-12.70-m2-oglas-40344323",
+                "currencyISO": "EUR",
+                "price": 70,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "193313981"
+                    }
+                }
+            }
+        },
+        {
+            "type": "similar-classifieds",
+            "id": "39567953",
+            "attributes": {
+                "label": "Gara\u017ea: Zagreb (PRE\u010cKO), 12,50 m2",
+                "url": "nekretnine/garaza-zagreb-vrbani-12.50-m2-oglas-39567953",
+                "currencyISO": "EUR",
+                "price": 76.25,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "187389480"
+                    }
+                }
+            }
+        },
+        {
+            "type": "similar-classifieds",
+            "id": "40419603",
+            "attributes": {
+                "label": "Gara\u017ea: Zagreb (Kne\u017eija), 15 m2",
+                "url": "nekretnine/garaza-zagreb-knezija-15-m2-oglas-40419603",
+                "currencyISO": "EUR",
+                "price": 80,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "193832546"
+                    }
+                }
+            }
+        },
+        {
+            "type": "similar-classifieds",
+            "id": "39697410",
+            "attributes": {
+                "label": "GARA\u017dA U NAJAM",
+                "url": "nekretnine/garaza-najam-oglas-39697410",
+                "currencyISO": "EUR",
+                "price": 70,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "188310618"
+                    }
+                }
+            }
+        },
+        {
+            "type": "similar-classifieds",
+            "id": "41023851",
+            "attributes": {
+                "label": "Gara\u017ea: Zagreb (\u0160pansko), 13 m2",
+                "url": "nekretnine/garaza-zagreb-spansko-13-m2-oglas-41023851",
+                "currencyISO": "EUR",
+                "price": 80,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "198633331"
+                    }
+                }
+            }
+        },
+        {
+            "type": "similar-classifieds",
+            "id": "39105091",
+            "attributes": {
+                "label": "Gara\u017ea: parkirno mjesto u gara\u017ei (Tre\u0161njevka), 15 m2",
+                "url": "nekretnine/garaza-parkirno-mjesto-garazi-tresnjevka-15-m2-oglas-39105091",
+                "currencyISO": "EUR",
+                "price": 60,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "184103933"
+                    }
+                }
+            }
+        },
+        {
+            "type": "similar-classifieds",
+            "id": "40306840",
+            "attributes": {
+                "label": "Parkirno mjesto u Vmd zgradi Darwin-Heinzelova",
+                "url": "nekretnine/parkirno-mjesto-vmd-zgradi-darwin-heinzelova-oglas-40306840",
+                "currencyISO": "EUR",
+                "price": 70,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "192990066"
+                    }
+                }
+            }
+        },
+        {
+            "type": "similar-classifieds",
+            "id": "40102539",
+            "attributes": {
+                "label": "Gara\u017ea: Zagreb (Sige\u010dica), 12,25 m2",
+                "url": "nekretnine/garaza-zagreb-sigecica-12.25-m2-oglas-40102539",
+                "currencyISO": "EUR",
+                "price": 75,
+                "isPriceOnRequest": false
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "type": "image",
+                        "id": "198240612"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "imageVariation",
+            "id": "0-variation-360x360c",
+            "attributes": {
+                "variationName": "360x360c",
+                "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=0&var_suff=360x360c",
+                "width": 360,
+                "height": 360,
+                "sizeType": "thumbnail big"
+            }
+        },
+        {
+            "type": "image",
+            "id": "0",
+            "attributes": {
+                "order": null
+            },
+            "relationships": {
+                "variations": {
+                    "data": [
+                        {
+                            "type": "imageVariation",
+                            "id": "0-variation-360x360c"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "imageVariation",
+            "id": "199085560-variation-360x360c",
+            "attributes": {
+                "variationName": "360x360c",
+                "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=199085560&var_suff=360x360c",
+                "width": 360,
+                "height": 360,
+                "sizeType": "thumbnail big"
+            }
+        },
+        {
+            "type": "image",
+            "id": "199085560",
+            "attributes": {
+                "order": null
+            },
+            "relationships": {
+                "variations": {
+                    "data": [
+                        {
+                            "type": "imageVariation",
+                            "id": "199085560-variation-360x360c"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "imageVariation",
+            "id": "199190310-variation-360x360c",
+            "attributes": {
+                "variationName": "360x360c",
+                "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=199190310&var_suff=360x360c",
+                "width": 360,
+                "height": 360,
+                "sizeType": "thumbnail big"
+            }
+        },
+        {
+            "type": "image",
+            "id": "199190310",
+            "attributes": {
+                "order": null
+            },
+            "relationships": {
+                "variations": {
+                    "data": [
+                        {
+                            "type": "imageVariation",
+                            "id": "199190310-variation-360x360c"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "imageVariation",
+            "id": "193313981-variation-360x360c",
+            "attributes": {
+                "variationName": "360x360c",
+                "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=193313981&var_suff=360x360c",
+                "width": 360,
+                "height": 360,
+                "sizeType": "thumbnail big"
+            }
+        },
+        {
+            "type": "image",
+            "id": "193313981",
+            "attributes": {
+                "order": null
+            },
+            "relationships": {
+                "variations": {
+                    "data": [
+                        {
+                            "type": "imageVariation",
+                            "id": "193313981-variation-360x360c"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "imageVariation",
+            "id": "187389480-variation-360x360c",
+            "attributes": {
+                "variationName": "360x360c",
+                "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=187389480&var_suff=360x360c",
+                "width": 360,
+                "height": 360,
+                "sizeType": "thumbnail big"
+            }
+        },
+        {
+            "type": "image",
+            "id": "187389480",
+            "attributes": {
+                "order": null
+            },
+            "relationships": {
+                "variations": {
+                    "data": [
+                        {
+                            "type": "imageVariation",
+                            "id": "187389480-variation-360x360c"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "imageVariation",
+            "id": "193832546-variation-360x360c",
+            "attributes": {
+                "variationName": "360x360c",
+                "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=193832546&var_suff=360x360c",
+                "width": 360,
+                "height": 360,
+                "sizeType": "thumbnail big"
+            }
+        },
+        {
+            "type": "image",
+            "id": "193832546",
+            "attributes": {
+                "order": null
+            },
+            "relationships": {
+                "variations": {
+                    "data": [
+                        {
+                            "type": "imageVariation",
+                            "id": "193832546-variation-360x360c"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "imageVariation",
+            "id": "188310618-variation-360x360c",
+            "attributes": {
+                "variationName": "360x360c",
+                "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=188310618&var_suff=360x360c",
+                "width": 360,
+                "height": 360,
+                "sizeType": "thumbnail big"
+            }
+        },
+        {
+            "type": "image",
+            "id": "188310618",
+            "attributes": {
+                "order": null
+            },
+            "relationships": {
+                "variations": {
+                    "data": [
+                        {
+                            "type": "imageVariation",
+                            "id": "188310618-variation-360x360c"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "imageVariation",
+            "id": "198633331-variation-360x360c",
+            "attributes": {
+                "variationName": "360x360c",
+                "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=198633331&var_suff=360x360c",
+                "width": 360,
+                "height": 360,
+                "sizeType": "thumbnail big"
+            }
+        },
+        {
+            "type": "image",
+            "id": "198633331",
+            "attributes": {
+                "order": null
+            },
+            "relationships": {
+                "variations": {
+                    "data": [
+                        {
+                            "type": "imageVariation",
+                            "id": "198633331-variation-360x360c"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "imageVariation",
+            "id": "184103933-variation-360x360c",
+            "attributes": {
+                "variationName": "360x360c",
+                "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=184103933&var_suff=360x360c",
+                "width": 360,
+                "height": 360,
+                "sizeType": "thumbnail big"
+            }
+        },
+        {
+            "type": "image",
+            "id": "184103933",
+            "attributes": {
+                "order": null
+            },
+            "relationships": {
+                "variations": {
+                    "data": [
+                        {
+                            "type": "imageVariation",
+                            "id": "184103933-variation-360x360c"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "imageVariation",
+            "id": "192990066-variation-360x360c",
+            "attributes": {
+                "variationName": "360x360c",
+                "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=192990066&var_suff=360x360c",
+                "width": 360,
+                "height": 360,
+                "sizeType": "thumbnail big"
+            }
+        },
+        {
+            "type": "image",
+            "id": "192990066",
+            "attributes": {
+                "order": null
+            },
+            "relationships": {
+                "variations": {
+                    "data": [
+                        {
+                            "type": "imageVariation",
+                            "id": "192990066-variation-360x360c"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "imageVariation",
+            "id": "198240612-variation-360x360c",
+            "attributes": {
+                "variationName": "360x360c",
+                "url": "https://www.njuskalo.hr/scripts/get_image_variation.php?image_id=198240612&var_suff=360x360c",
+                "width": 360,
+                "height": 360,
+                "sizeType": "thumbnail big"
+            }
+        },
+        {
+            "type": "image",
+            "id": "198240612",
+            "attributes": {
+                "order": null
+            },
+            "relationships": {
+                "variations": {
+                    "data": [
+                        {
+                            "type": "imageVariation",
+                            "id": "198240612-variation-360x360c"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
