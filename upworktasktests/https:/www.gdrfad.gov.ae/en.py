@@ -1,4 +1,6 @@
 from selenium import webdriver
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium_recaptcha_solver import RecaptchaSolver
 from selenium.webdriver.chrome.service import Service
@@ -31,10 +33,17 @@ def set_driver():
     return driver
 
 
-def go_login(driver):
+def go_login(driver) -> bool:
     driver.get("https://www.gdrfad.gov.ae/en")
 
-    driver.find_element(By.ID, "profileBtn").click()
+    try:
+        WebDriverWait(driver, 7).until(
+            EC.presence_of_element_located((By.ID, "profileBtn"))
+        ).click()
+    except Exception as e:
+        print(e)
+        return False
+
     driver.find_element(
         By.XPATH,
         "/html/body/form/div[3]/main/div[2]/div/div/div[2]/div/div[1]/div[1]/div[1]/a",
@@ -44,6 +53,8 @@ def go_login(driver):
         By.XPATH,
         "/html/body/form/div[3]/main/div[2]/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[2]/div[2]/div[1]/div/div[2]/div/a",
     ).click()
+
+    return True
 
 
 def set_country(driver, country: str):
@@ -137,7 +148,9 @@ def login(driver, data_item):
 if __name__ == "__main__":
     driver = set_driver()
     for data_item in test_data:
-        go_login(driver)
+        if not go_login(driver):
+            print("login failed. Skip.")
+            continue
         data_item_data = login(driver, data_item=data_item)
         data_item_new = data_item
         data_item_new["name_en"] = data_item_data[0]
